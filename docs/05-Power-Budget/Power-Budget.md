@@ -1,17 +1,17 @@
 ---
-title: Power Budget
+title: Power Budget (Roshan Roy Geoffrey Joe)
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+I have added the following images:
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+![alt text](budgetPg1.png)
 
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
+![alt text](budgetPg2.png)
 
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
+![alt text](budgetPg3.png)
 
 ## Conclusions
 
