@@ -12,4 +12,4 @@ This schematic is the lamp control section of the output drive board for EGR 304
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](SubsystemSchematic.pdf), and the Zip folder of the project [*here*](Subsytem.zip).
+The schematic as a PDF download is available [*here*](SubsystemSchematic.pdf), and the Zip folder of the project [*here*](Subsystem.zip).
