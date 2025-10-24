@@ -42,5 +42,3 @@ My contribution focuses on designing and implementing the Sensor Front-End subsy
 This subsystem plays a key role in turning control signals into real-world actuation, ensuring reliable lamp operation under different environmental conditions.
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://roshanroy-r64x.github.io/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
