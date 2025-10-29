@@ -6,18 +6,9 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+Below is the individual block diagram for the Sensor Front End of the overall board. This board receives the input from Quinn's board and outputs a light to a LED.
 
 
 ## Block Diagram 
 
-![Individual Block diagram](Image.png)
+![Individual Block diagram](image.png)
