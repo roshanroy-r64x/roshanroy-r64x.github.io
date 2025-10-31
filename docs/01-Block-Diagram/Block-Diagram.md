@@ -11,4 +11,4 @@ Below is the individual block diagram for the Sensor Front End of the overall bo
 
 ## Block Diagram 
 
-![Individual Block diagram](image.png)
+![Individual Block diagram](Image.png)
