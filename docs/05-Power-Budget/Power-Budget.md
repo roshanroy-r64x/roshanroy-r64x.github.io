@@ -11,10 +11,6 @@ This page is a work in progress of the final power budget. Each of the power con
 * +3.3 V Rail: placeholder sheet (in case we later move the sensor/MCU to 3.3 V)
 * External Power Source: a generic 9 V/1 A wall supply driving the 5 V regulator, with remaining headroom
 
-## Conclusions
-
-Updated after the Design Review
-
 ## Resouces
 
 The power budget as a PDF download is available [*here*](PowerBudgetRoshan.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetRoshan.xlsx).
