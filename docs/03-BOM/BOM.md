@@ -26,7 +26,7 @@ Ambient Light Sensors Ambient Light Sensor AEC-Q101 Qualified | 1 | $0.80 | $0.8
 | Red LED | 1 | $0.15 | $ 0.15 | Würth Elektronik | 151051RS11000 | Peralta 109 | [datasheet link](https://www.we-online.com/components/products/datasheet/151051RS11000.pdf) | D1 |
 | Curiosity Nano PIC18F57Q43 Microchip | 1 | $9.99 | $ 9.99 | Microchip technology | DM164150 | Peralta 109 | [datasheet link](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F27-47-57Q43-Microcontroller-Data-Sheet-XLP-DS40002147.pdf) | PIC_RRGJ1 |
 | 10KΩ Potentiometer  | 1 | $1.87 | $ 1.87 | TT Electronics/BI | P160KN-0QC15B10K | Peralta 109 | [datasheet link](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P160.pdf) | RV1 |
-| LM7805  | 1 | $0.50 | $0.50 | STMicroelectronics | L7805CV | Peralta 109 | [datasheet link](https://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf) | U1 |
+| +5V Voltage Regulator  | 1 | $1.80 | $1,80 | STMicroelectronics | LM7805CT/NOPB | Peralta 109 | [datasheet link](https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929) | U1 |
 | Jumper Wires  | Multiple | - | - | - | - | Peralta 109 | - | - |
 | Fuse 2A  | 1 | $0.50 | $0.50 | Littelfuse Inc. | 0217002.MXP | Peralta 109 | [datasheet link](https://www.littelfuse.com/assetdocs/littelfuse-fuse-217-datasheet?assetguid=af55be94-c42e-41b1-ad43-e070e09443fe) | J2 |
 | 2x4 Ribbon Cables  | 1 | $9.31 | $9.31 | Samtec Inc. | FFSD-04-D-04.00-01 | Peralta 109 | [datasheet link](https://suddendocs.samtec.com/catalog_english/ffsd.pdf) | J3 |
