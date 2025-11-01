@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-This section is the BOM (Bill of Materials) for the ClapSense audio front end subsystem.
+This section is the BOM (Bill of Materials) for the ClapSense sensor front end subsystem.
 
 ## Bill of Materials
 
