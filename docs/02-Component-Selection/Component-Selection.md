@@ -10,9 +10,9 @@ title: Component Selection
 | ![](MCP1825S.png)<br> Microchip MCP1825S-5002E/DB <br> $0.70/each <br> [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP1825S-5002E-DB/1636099?) | \* 500 mA LDO <br>\* lower dropout than 7805 <br> \* compact SOT-223 package | * SMD reflow/soldering skill needed <br>\* less tolerant of big thermal loads                                                         |
 | ![](AMS1117.png)<br> AMS1117-5.0<br>$0.13/each<br>[Link to product](https://www.digikey.com/en/products/detail/evvo/AMS1117-5-0/24370130?)                 | \* 1 A rating<br>\* Compact<br>                                               | \* Moderate dropout (~1.1–1.3 V) <br>\* Current higher than some LDOs <br>\* Dip in quality|
 
-**Choice:** MCP1825S-5002
+**Choice:** LM7805CT/NOPB
 
-**Rationale:** Meets the project’s 500 mA requirement with lower dropout than a 7805, reducing heat when input headroom is small; SOT-223 footprint keeps the PCB compact while still manageable to solder. Price and availability are also solid.
+**Rationale:** Meets the project’s 500 mA requirement and compatible with the PSoC. Same voltage regulator as the rest of the group so consistency maintained as well.
 
 ## Op-Amp Module
 
