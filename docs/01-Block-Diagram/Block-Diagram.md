@@ -6,9 +6,9 @@ tags:
 ---
 
 ## Overview
-Below is the individual block diagram for the Sensor Front End of the overall board. This board receives the input from Quinn's board and outputs a light to a LED.
+Below is the individual block diagram for the Distance Front End of the overall board. This board receives the distance input and adjusts the potentiometer to dim or brighten an LED.
 
 
 ## Block Diagram 
 
-![Individual Block diagram](Image.png)
+![Individual Block diagram](BlockDiagram.png)
