@@ -586,9 +586,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#light-sensor-module" class="md-nav__link">
+  <a href="#distance-sensor-module" class="md-nav__link">
     <span class="md-ellipsis">
-      Light Sensor Module
+      Distance Sensor Module
     </span>
   </a>
   
@@ -893,9 +893,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#light-sensor-module" class="md-nav__link">
+  <a href="#distance-sensor-module" class="md-nav__link">
     <span class="md-ellipsis">
-      Light Sensor Module
+      Distance Sensor Module
     </span>
   </a>
   
@@ -984,7 +984,7 @@
 </table>
 <p><strong>Choice:</strong> MCP6002</p>
 <p><strong>Rationale:</strong> For an ambient-light signal into the PIC’s ADC, rail-to-rail I/O, low power, and clean operation at 5 V are more valuable than bandwidth. MCP6002 gives simpler headroom management than LM358 with minimal cost increase.</p>
-<h2 id="light-sensor-module">Light Sensor Module</h2>
+<h2 id="distance-sensor-module">Distance Sensor Module</h2>
 <table>
 <thead>
 <tr>
@@ -995,24 +995,24 @@
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../TEMT6000X01.png" data-desc-position="bottom"><img alt="" src="../TEMT6000X01.png"></a><br> TEMT6000X01<br>$0.90/each<br><a href="https://www.mouser.com/ProductDetail/Vishay-Semiconductors/TEMT6000X01?qs=%2Fjqivxn91ccZGXDwz0wGxg%3D%3D&amp;srsltid=AfmBOooQdB74AbB3cmws8rrGCeFrnCZulZ_kDPwcyoM4WwAIF_F-DG09">Link to product</a></td>
-<td>* Simple analog output<br>* Fast response and tiny footprint <br>* Works directly with op-amp/ADC</td>
-<td>* Output is non-linear vs. lux<br>* Requires biasing and calibration <br>* Sensitive to angle/spectrum</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../GP2Y0A21YK0F.png" data-desc-position="bottom"><img alt="" src="../GP2Y0A21YK0F.png"></a><br>GP2Y0A21YK0F<br>$12.41/each<br><a href="https://www.mouser.com/ProductDetail/Sharp-Microelectronics/GP2Y0A21YK0F?qs=5S%2F4hkdqNNcI0gpWLEuQ8w%3D%3D&amp;srsltid=AfmBOor6tRQwArriCsBX9USd7xWGLUOvLn5iKQPQR_6T8RsckpvSWZ2-">Link to product</a></td>
+<td>* 10–80 cm analog IR distance sensing <br>* 5 V supply compatible with system rail<br>* Simple 3-wire hookup (Vcc, Out, GND)</td>
+<td>* Non-linear analog output curve<br>* Accuracy ±10% typical<br>* Sensitive to color/surface reflectivity</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../BH1750FVI.png" data-desc-position="bottom"><img alt="" src="../BH1750FVI.png"></a><br> BH1750FVI <br> $4.00/each <br> <a href="https://www.sunrom.com/p/digital-light-sensor-bh1750fvi?">Link to product</a></td>
-<td>* Reports lux directly via I²C <br>* Minimal analog design</td>
-<td>* Requires I²C + library <br>* Fixed spectrum/transfer function <br>* Module size &gt; bare sensor</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../HC-SR04.png" data-desc-position="bottom"><img alt="" src="../HC-SR04.png"></a><br> HC-SR04 Ultrasonic Module<br> $5.25/each <br> <a href="https://www.sparkfun.com/ultrasonic-distance-sensor-hc-sr04.html">Link to product</a></td>
+<td>* 2 – 400 cm range<br>* Low  cost and 5 volts<br>* Easy firmware via trigger/echo timing</td>
+<td>* Requires two I/O pins<br>* Unreliable on soft/angled targets<br>* Bulkier than IR sensor</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../VEML7700.png" data-desc-position="bottom"><img alt="" src="../VEML7700.png"></a><br> Adafruit VEML7700 Lux Sensor - I2C Light Sensor - STEMMA QT / Qwiic<br>$5.00/each<br><a href="https://www.adafruit.com/product/4162?srsltid=AfmBOorBHSPB9NFLJcU5ez7-J4arau8XeTmrqw6rngzxuV2-He8xyOAv">Link to product</a></td>
-<td>* Wide 0–120 klux, 16-bit <br>* adjustable gain/integration <br>* 3.3/5 V friendly and accurate lux output</td>
-<td>* I²C interface required</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../VL53L1X.png" data-desc-position="bottom"><img alt="" src="../VL53L1X.png"></a><br> Adafruit VL53L1X Time of Flight Distance Sensor - ~30 to 4000mm - STEMMA QT / Qwiic<br>$14.95/each<br><a href="https://www.adafruit.com/product/3967">Link to product</a></td>
+<td>* 4 m max range<br>* High precision and narrow field of view<br>* I²C digital output with built-in filtering</td>
+<td>* Needs 3.3 V rail + level shifting<br>* More complex firmware (I²C driver)</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> TEMT6000</p>
-<p><strong>Rationale:</strong> Since there is already an ADC channel, TEMT6000 keeps BOM cost and firmware complexity low while providing fast analog response. If calibrated, it’s sufficient for relative brightness feedback to the LED driver.</p>
+<p><strong>Choice:</strong> Sharp GP2Y0A21YK0F</p>
+<p><strong>Rationale:</strong> Operates directly from the 5 V rail and outputs an analog voltage enough for the PIC ADC, eliminating extra signal-conditioning hardware. It covers the intended 10–80 cm detection zone with low power draw and minimal code overhead, ideal for quick integration into the Distance Front End.</p>
 
 
 
