@@ -7,7 +7,7 @@ title: Schematic
 This schematic is the lamp control section of the output drive board for EGR 304 Group 204's project.
 
 
-![schematic](SubsystemNew.png){style width:"350" height:"300;"}
+![schematic](SubsystemNew.jpg){style width:"350" height:"300;"}
 
 
 ## Resouces
