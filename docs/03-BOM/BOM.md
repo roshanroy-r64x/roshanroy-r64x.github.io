@@ -14,7 +14,7 @@ This section is the BOM (Bill of Materials) for the ClapSense sensor front end s
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-Distance Sensor Modules - Enclosed Distnc Measurng Snsr Wde Beam 10-80cm | 1 | $12.41 | $12.41 | Mouser Electronics | GP2Y0A21YK0F | [Mouser Electronics](https://www.mouser.com/ProductDetail/Sharp-Microelectronics/GP2Y0A21YK0F?qs=5S%2F4hkdqNNcI0gpWLEuQ8w%3D%3D&srsltid=AfmBOor6tRQwArriCsBX9USd7xWGLUOvLn5iKQPQR_6T8RsckpvSWZ2-) | [datasheet link](https://www.mouser.com/datasheet/3/267/1/gp2y0a21yk_e.pdf) | TEMT6000_RRGJ1 |
+Sharp Electronic Components GP2Y0A21YK0F Distance Sensors | 1 | $6.95 | $6.95 | Sharp | GP2Y0A21YK0F | [Jameco Electronics](https://www.jameco.com/z/GP2Y0A21YK0F-Sharp-IR-Distance-Sensor-GP2Y0A21YK0F-_2150256.html?CID=GOOG) | [datasheet link](https://www.jameco.com/Jameco/Products/ProdDS/2150256.pdf) | S1 |
 | MCP6002 OP AMP | 1 | $1.86 | $ 1.86 | Microchip Technology | MCP6002-I/P-ND | Peralta 109 | [datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf) | MCP6002_RRGJ1 |
 | PJ-102AH Barrel Jack | 1 | $0.76 | $ 0.76 | Same Sky | CP-102AH-ND | Peralta 109 | [datasheet link](https://www.sameskydevices.com/product/resource/pj-102ah.pdf) | J1 |
 | 330 ohm resistor | 1 | $0.10 | $ 0.10 | Stackpole Electronics Inc | CF14JT330R | Peralta 109 | [datasheet link](https://www.seielect.com/catalog/SEI-CF_CFM.pdf) | R10 |
