@@ -614,6 +614,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#final-component-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Component Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pinout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pinout
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -957,6 +975,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#final-component-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Component Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pinout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pinout
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1069,6 +1105,92 @@
 </table>
 <p><strong>Choice:</strong> Sharp GP2Y0A21YK0F</p>
 <p><strong>Rationale:</strong> Operates directly from the 5 V rail and outputs an analog voltage enough for the PIC ADC, eliminating extra signal-conditioning hardware. It covers the intended 10–80 cm detection zone with low power draw and minimal code overhead, ideal for quick integration into the Distance Front End.</p>
+<h2 id="final-component-summary">Final Component Summary</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Component Category</strong></th>
+<th><strong>Component Name</strong></th>
+<th><strong>Part Number</strong></th>
+<th><strong>Description / Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Microcontroller</strong></td>
+<td>PIC18F57Q43 Curiosity Nano</td>
+<td>DM182029</td>
+<td>Reads amplified distance sensor signal (RA0), drives PWM LED, provides subsystem control.</td>
+</tr>
+<tr>
+<td><strong>Distance Sensor</strong></td>
+<td>Sharp IR Distance Sensor</td>
+<td>GP2Y0A21YK0F</td>
+<td>Outputs analog voltage proportional to distance (10–80 cm range).</td>
+</tr>
+<tr>
+<td><strong>Op-Amp (Signal Conditioning)</strong></td>
+<td>Dual Op-Amp</td>
+<td>MCP6002</td>
+<td>Conditions and amplifies the sensor output before feeding the PIC ADC.</td>
+</tr>
+<tr>
+<td><strong>Voltage Regulator</strong></td>
+<td>5 V Linear Regulator</td>
+<td>LM7805</td>
+<td>Converts 9 V barrel jack input to regulated 5 V for the subsystem.</td>
+</tr>
+<tr>
+<td><strong>Indicator Output</strong></td>
+<td>Red Status LED (PWM)</td>
+<td>Broadcom HLMP-4700</td>
+<td>Visual distance indicator driven by PWM from PIC.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pinout">Pinout</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Location</strong></th>
+<th><strong>Pin Name</strong></th>
+<th><strong>Module</strong></th>
+<th><strong>Function</strong></th>
+<th><strong>Direction</strong></th>
+<th><strong>Custom Name</strong></th>
+<th><strong>Analog</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>21</strong></td>
+<td>RA0</td>
+<td>ADCC</td>
+<td>ANx (ADC Input)</td>
+<td>input</td>
+<td>IO_RA0</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>22</strong></td>
+<td>RA1</td>
+<td>Pins</td>
+<td>GPIO (LED PWM Output)</td>
+<td>output</td>
+<td>IO_RA1</td>
+<td>No</td>
+</tr>
+<tr>
+<td><strong>23</strong></td>
+<td>RA2</td>
+<td>DAC1</td>
+<td>DAC1OUTx (Optional analog output / debugging)</td>
+<td>output</td>
+<td>IO_RA2</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 
 
 
