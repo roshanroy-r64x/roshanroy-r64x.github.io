@@ -37,3 +37,21 @@ title: Component Selection
 **Choice:** Sharp GP2Y0A21YK0F
 
 **Rationale:** Operates directly from the 5 V rail and outputs an analog voltage enough for the PIC ADC, eliminating extra signal-conditioning hardware. It covers the intended 10–80 cm detection zone with low power draw and minimal code overhead, ideal for quick integration into the Distance Front End.
+
+## Final Component Summary
+
+| **Component Category**           | **Component Name**         | **Part Number**    | **Description / Purpose**                                                                 |
+| -------------------------------- | -------------------------- | ------------------ | ----------------------------------------------------------------------------------------- |
+| **Microcontroller**              | PIC18F57Q43 Curiosity Nano | DM182029           | Reads amplified distance sensor signal (RA0), drives PWM LED, provides subsystem control. |
+| **Distance Sensor**              | Sharp IR Distance Sensor   | GP2Y0A21YK0F       | Outputs analog voltage proportional to distance (10–80 cm range).                         |
+| **Op-Amp (Signal Conditioning)** | Dual Op-Amp                | MCP6002            | Conditions and amplifies the sensor output before feeding the PIC ADC.                    |
+| **Voltage Regulator**            | 5 V Linear Regulator       | LM7805             | Converts 9 V barrel jack input to regulated 5 V for the subsystem.                        |
+| **Indicator Output**             | Red Status LED (PWM)       | Broadcom HLMP-4700 | Visual distance indicator driven by PWM from PIC.                                         |
+
+## Pinout
+
+| **Location** | **Pin Name** | **Module** | **Function**                                  | **Direction** | **Custom Name** | **Analog** |
+| ------------ | ------------ | ---------- | --------------------------------------------- | ------------- | --------------- | ---------- |
+| **21**       | RA0          | ADCC       | ANx (ADC Input)                               | input         | IO_RA0          | Yes         |
+| **22**       | RA1          | Pins       | GPIO (LED PWM Output)                         | output        | IO_RA1          | No          |
+| **23**       | RA2          | DAC1       | DAC1OUTx (Optional analog output / debugging) | output        | IO_RA2          | Yes         |

@@ -14,6 +14,8 @@ for<br>
 **Submission: December 08, 2025**
 </center>
 
+![Final Picture](image.png)
+
 ## Introduction
 
 This page documents the Distance Front-End Subsystem developed by Roshan as part of Team 204’s EGR 304 project. The purpose of this subsystem is to measure the proximity of a movable slider using a distance sensor and use that data to control the brightness of an LED. This GitHub page provides an overview of the subsystem’s hardware architecture, selected components, signal and power interfacing, and how this board integrates into the overall ClapSense system.
